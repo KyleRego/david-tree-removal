@@ -18,16 +18,10 @@ function App() {
       </p>
 
       <div className="d-flex justify-content-around column-gap-1 flex-wrap row-gap-1 align-items-center">
-        <div>
           <Image src="/david-removing-tree.jpg" text="David working on a tree" w="320px" /> 
-        </div>
-        <div>
           <Video src={"./strikes-against-root.mp4"} caption={"Chopping roots"} w={"320px"} />
-        </div>
-        <div className="d-flex column-gap-1 align-items-center flex-wrap row-gap-3 justify-content-around">
           <Video src={"./tree-falling.mp4"} caption={"Tree felled!"} w = "320px" />
           <Image src="./thumbs-up-sad.png" text={"David does not really like to cut down a tree, it is just work that has to be done"} w="340px" />
-        </div>
       </div>
 
       
